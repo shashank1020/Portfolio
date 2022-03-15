@@ -1,0 +1,80 @@
+.techstack {
+    display : flex;
+    text-align: center;
+    height: 50vh;
+    margin: auto;
+    flex-wrap: wrap;
+    max-height: 400px;
+}
+.techstack>div {
+    border-radius: 20px;
+    margin: 2.5%;
+    width: 11%;
+    float: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.5s ease 0s;
+}
+.techstack>div:hover {
+    overflow: hidden;
+    animation: auto;
+    transform: scale(1.08);
+    cursor: pointer;
+    box-shadow: rgba(137, 11, 240, 0.25) 0px 13px 27px -5px, rgba(236, 93, 255, 0.3) 0px 8px 16px -8px;
+}
+.techstack> div > svg {
+    font-size: 35px;
+}
+.techstack>div {
+    border-radius: 20px;
+    text-align: center;
+    align-items: center;
+}
+@media only screen and (min-width: 0px) and (max-width: 374px) {
+    .techstack {
+        text-align: center;
+        height: 500px;
+        overflow : scroll;
+    }
+    .techstack > div >svg {
+        font-size: 34px;
+    }
+    .techstack>div>h1 { 
+        margin-top: 1%;
+    }
+    .techstack > div {
+        width: 90%;
+        margin-right: 5%;
+        margin-bottom: 2%;
+        height: 18vh;
+    }
+}
+.techstack {
+    -ms-overflow-style: none; /* for Internet Explorer, Edge */
+    scrollbar-width: none; /* for Firefox */
+    overflow-y: scroll; 
+}
+
+.techstack::-webkit-scrollbar {
+    display: none; /* for Chrome, Safari, and Opera */
+}
+@media only screen and (min-width: 375px) and (max-width: 600px) {
+    .techstack {
+        height: 120vh;
+        overflow : scroll;
+    }
+    .techstack > div >svg {
+        font-size: 34px;
+    }
+    .techstack>div>h1 { 
+        margin-top: 1%;
+    }
+    .techstack > div {
+        width: 40%;
+        margin-right: 5%;
+        margin-bottom: 2%;
+        height: 18vh;
+    }
+}
