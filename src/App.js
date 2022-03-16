@@ -4,6 +4,7 @@ import Navbar from "./components/Navbar";
 import Home from "./components/Home/Home";
 import About from "./components/About/About";
 import {Projects} from "./components/Projects/Project";
+import {Contact} from './components/Contact/Contact'
 import {
   BrowserRouter as Router,
 } from "react-router-dom";
@@ -37,6 +38,7 @@ function App() {
         < About />
         < Projects /> 
         <ScrollToTop />
+        < Contact />
       </div>
     </Router>
   );

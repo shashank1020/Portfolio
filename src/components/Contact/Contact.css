@@ -1,0 +1,59 @@
+body {
+    font-size: 62.5%;
+}
+.contact {
+    color : white;
+    font-size: 3rem;
+    text-align: center;
+    background-color: rgb(0, 0, 0, 0.4);
+    padding: 1rem 0 1rem 0;
+    margin-top: 1%;
+}
+.form_div {
+    justify-content :center;
+}
+.form_div>label, .form_div> input, .form_div> textarea {
+    display: block;
+    margin: auto;
+    text-align: center;
+    color: white;
+    background-color: transparent;
+}
+:root {
+    --widthfor : 70%;
+    --fontSize : 1rem;
+    --fontP : 1rem;
+}
+.form_div input{
+    height: 3rem;
+    width: var(--widthfor);
+    font-size : var(--fontSize);
+    margin-bottom : 3%;
+}
+.form_div p {
+    font-size: var(--fontP);
+    margin: 0;
+    margin-bottom: 1%;
+}
+.form_div p:first-child {
+    margin-top: 3%;
+}
+.form_div textarea {
+    width: var(--widthfor);
+    margin-bottom : 2%;
+    font-size : var(--fontSize);
+}
+.form_div > input:last-child { 
+    height : 2rem;
+    font-size: 1rem;
+    width: 8%;
+}
+@media (max-width: 600px) {
+    :root{
+        --widthfor : 90%;
+    }
+    .form_div> input:last-child {
+        font-size: 1rem;
+        width: 20%;
+    }
+ }

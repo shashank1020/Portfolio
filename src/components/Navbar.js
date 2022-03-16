@@ -102,6 +102,15 @@ function NavBar() {
                 Resume
               </Nav.Link>
             </Nav.Item>
+            <Nav.Item>
+              <Nav.Link
+              as={Link}
+              smooth to="#contact"
+              >
+                <CgFileDocument style={{ marginBottom: "2px" }} />
+                Contact
+              </Nav.Link>
+            </Nav.Item>
           </Nav>
         </Navbar.Collapse>
       </Container>
