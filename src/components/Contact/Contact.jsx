@@ -1,6 +1,7 @@
-import React,{useRef, useState} from 'react'
+import React,{ useState } from 'react'
 import './Contact.css'
 import emailjs from '@emailjs/browser';
+import AddedCont from './AddedCont';
 const Result = ()=>{
   return (
     <>
@@ -25,22 +26,31 @@ export const Contact = () => {
       }, 5000);
   };
   return (
+    <>
     <section className="contact" id="contact" >
       <div>
         Now don't be shy contact me
       </div>
           <div className="form_div">
-        <form onSubmit={sendEmail} >
-          <p>Name</p>
-          <input type="text" name="from_name" placeholder="Enter Name"/>
-          <p>Email</p>
-          <input type="email" name="email" placeholder="Enter Your Email" />
-          <p>Message</p>
-          <textarea name="message" rows="4" placeholder="Message" col='5'/>
-          <input type="submit" value="Send"/>
+        <form onSubmit={sendEmail} className="form_form" >
+          <div>
+            <p>Name</p>
+            <input type="text" name="from_name" placeholder="Enter Name" required/>
+            <p>Email</p>
+            <input type="email" name="email" placeholder="Enter Your Email"  requred/>
+            <p>Number</p>
+            <input type="number" name="number" pattern="/^-?\d+\.?\d*$/" placeholder="Enter Mobile Number" required/>
+          </div>
+          <div>
+            <p>Message</p>
+            <textarea name="message" rows="4" placeholder="Message" col='5' required/>
+            <input type="submit" value="Send"/>
+          </div>
         </form>
             <div> {result ? <Result/> : null} </div>
           </div>
     </section>
+    <AddedCont />
+    </>
   )
 }

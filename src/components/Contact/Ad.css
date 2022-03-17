@@ -1,0 +1,31 @@
+body {
+    font-size: 66.5%;
+}
+:root {
+    --fontSizeAd : 2rem;
+}
+.add_contact {
+    padding: 1rem 0 1rem 0;
+    color: white;
+    width: 100%;
+    justify-content: center;
+    font-size: var(--fontSizeAd);
+}
+.add_contact>div>div>svg {
+    font-size: var(--fontSizeAd);
+    color: rgb(195, 124, 228);
+}
+.add_contact_div{
+    display: flex;
+    width: 60%;
+    margin: auto;
+    justify-content: space-between;
+}
+@media (max-width: 600px) {
+    .add_contact_div {
+        width: 80%;
+    }
+    :root {
+        --fontSizeAd : 1rem;
+    }
+}

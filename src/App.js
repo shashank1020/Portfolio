@@ -27,9 +27,13 @@ function App() {
   useEffect(() => {
     AOS.init({
       duration : 1000,
-      offset: 230,
-      once: false,
-      mirror: false,
+      offset: 250,
+      // once: 'false',
+      mirror: true,
+      disable: function() {
+        var maxWidth = 800;
+        return window.innerWidth < maxWidth;
+      }
     });
   }, []);
   return (

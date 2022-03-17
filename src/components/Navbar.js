@@ -8,8 +8,8 @@ import {
   AiOutlineHome,
   AiOutlineFundProjectionScreen,
   AiOutlineUser,
+  AiOutlineMail,
 } from "react-icons/ai";
-
 import { CgFileDocument } from "react-icons/cg";
 
 import { GiSkills } from "react-icons/gi";
@@ -105,9 +105,10 @@ function NavBar() {
             <Nav.Item>
               <Nav.Link
               as={Link}
+              onClick={() => updateExpanded(false)}
               smooth to="#contact"
               >
-                <CgFileDocument style={{ marginBottom: "2px" }} />
+                <AiOutlineMail style={{ marginBottom: "2px" }} />
                 Contact
               </Nav.Link>
             </Nav.Item>
