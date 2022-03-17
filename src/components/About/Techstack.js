@@ -17,51 +17,51 @@ function Techstack() {
   return (
     <>
       <div className="techstack">
-          <div>
+          <div data-aos='flip-down'>
             <SiJavascript />
             <h5>Javascript</h5>
           </div>
-          <div>
+          <div data-aos='flip-down'>
             <SiHtml5 />
             <h5>HTML</h5>
           </div>
-          <div>
+          <div data-aos='flip-down'> 
             <DiCss3 />
             <h5>CSS</h5>
           </div>
-          <div>
+          <div data-aos='flip-down'>
             <FaReact />
             <h5>React</h5>
           </div>
-          <div>
+          <div data-aos='flip-down'>
             <FaNodeJs />
             <h5>Nodejs</h5>
           </div>
-          <div>
+          <div data-aos='flip-down'>
             <DiMongodb />
             <h5>MongoDb</h5>
           </div>
-          <div>
+          <div data-aos='flip-down'>
             <SiRedux />
             <h5>Redux</h5>
           </div>
-          <div>
+          <div data-aos='flip-down'>
             <SiExpress />
             <h5>Express</h5>
           </div>
-          <div>
+          <div data-aos='flip-down'>
             <SiRedis />
             <h5>Redis</h5>
           </div>
-          <div>
+          <div data-aos='flip-down'>
             <SiMaterialui />
             <h5>Material Ui</h5>
           </div>
-          <div>
+          <div data-aos='flip-down'>
             <BsBootstrap />
             <h5>Bootstrap</h5>
           </div>
-          <div>
+          <div data-aos='flip-down'>
             <VscGithub />
             <h5>Github</h5>
           </div>

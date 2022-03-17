@@ -15,17 +15,19 @@ export const Projects = () => {
         <h2 className="section__title different" data-aos="fade-right">
           {'<'}<strong>Projects</strong>{'/>'}
         </h2>
-        <div className="projects_container">
+        <div className="projects_container"
+        >
           <div className="project">
             <div className="project_videocontainer">
-              <div data-aos="fade-right">
+              <div data-aos="fade-right"
+              >
                 <img
                   src="https://drive.google.com/uc?export=view&id=1MZTHotmlqZyoGjQQbS9FOOnRKdA-ou7z"
                   alt=""
                 />
               </div>
             </div>
-            <div className="project_information" data-aos="fade-right">
+            <div className="project_information" data-aos="fade-left" >
               <h2>Gift-card Clone</h2>
               <p>
               Gift-card is a e-commerce website, It is an online 
@@ -70,14 +72,14 @@ export const Projects = () => {
           <div className="projects_container">
           <div className="project">
             <div className="project_videocontainer">
-              <div data-aos="fade-right">
+              <div data-aos="fade-right" >
                 <img
                   src={Ubuy}
                   alt=""
                 />
               </div>
             </div>
-            <div className="project_information" data-aos="fade-right">
+            <div className="project_information" data-aos="fade-left">
               <h2>Ubuy Clone</h2>
               <p>
               Gift-card is a e-commerce website, It is an online 
@@ -119,14 +121,14 @@ export const Projects = () => {
           <div className="projects_container">
           <div className="project">
             <div className="project_videocontainer">
-              <div data-aos="fade-right">
+              <div data-aos="fade-right"   data-aos-anchor-easing='ease-in-out'>
                 <img
                   src={Youtube}
                   alt=""
                 />
               </div>
             </div>
-            <div className="project_information" data-aos="fade-right">
+            <div className="project_information" data-aos="fade-left"   data-aos-anchor-easing='ease-in-out'>
               <h2>Youtube Clone</h2>
               <p>
                 Youtube clone is my individual project. I created this when I was learning REST API.
