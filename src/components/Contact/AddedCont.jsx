@@ -7,7 +7,7 @@ import { AiOutlineMail } from "react-icons/ai";
 
 const AddedCont = () => {
   return (
-    <div className='add_contact'>
+    <div className='add_contact' style={{fontFamily: "'Lobster Two', cursive "}}> 
         <div className='add_contact_div'>
         <div>
             <BiPhone /><span>{"  "}8369480040</span>

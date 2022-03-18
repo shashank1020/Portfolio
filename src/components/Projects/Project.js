@@ -18,8 +18,7 @@ export const Projects = () => {
         <div className="projects_container">
           <div className="project">
             <div className="project_videocontainer">
-              <div data-aos="fade-right"
-              >
+              <div data-aos="fade-right">
                 <img
                   src="https://drive.google.com/uc?export=view&id=1MZTHotmlqZyoGjQQbS9FOOnRKdA-ou7z"
                   alt=""
@@ -28,14 +27,16 @@ export const Projects = () => {
             </div>
             <div className="project_information" data-aos="fade-left" >
               <h2>Gift-card Clone</h2>
+              <div>
               <p>
               Gift-card is a e-commerce website, It is an online 
               gift-card retailer based in Pittsburgh, Pennsylvania. It is considered the
               largest online gift card retailer and has appeared on the Inc.
+              </p>
               <p>
                 This was a group project and contributors are Yash, Kartik, Sumit, Mayar and Ankit
               </p>
-              </p>
+              </div>
               <div>
                 <SiHtml5 />
                 <DiCss3 />
@@ -80,14 +81,16 @@ export const Projects = () => {
             </div>
             <div className="project_information" data-aos="fade-left">
               <h2>Ubuy Clone</h2>
+              <div>
               <p>
               Gift-card is a e-commerce website, It is an online 
               gift-card retailer based in Pittsburgh, Pennsylvania. It is considered the
               largest online gift card retailer and has appeared on the Inc.
+              </p>
               <p>
                 This was a group project and contributors are Suresh, Prachi and Ankit
               </p>
-              </p>
+              </div>
               <div>
                 <SiHtml5 />
                 <DiCss3 />
@@ -129,9 +132,11 @@ export const Projects = () => {
             </div>
             <div className="project_information" data-aos="fade-left"   data-aos-anchor-easing='ease-in-out'>
               <h2>Youtube Clone</h2>
-              <p>
-                Youtube clone is my individual project. I created this when I was learning REST API.
-              </p>
+              <div>
+                <p>
+                  Youtube clone is my individual project. I created this when I was learning REST API.
+                </p>
+              </div>
               <div>
                 <SiHtml5 />
                 <DiCss3 />

@@ -5,9 +5,7 @@ import Home from "./components/Home/Home";
 import About from "./components/About/About";
 import {Projects} from "./components/Projects/Project";
 import {Contact} from './components/Contact/Contact'
-import {
-  BrowserRouter as Router,
-} from "react-router-dom";
+import {BrowserRouter as Router} from "react-router-dom";
 import ScrollToTop from "./components/ScrollToTop";
 import "./style.css";
 import "./App.css";
@@ -38,14 +36,18 @@ function App() {
   }, []);
   return (
     <Router>
-      <Preloader load={load} />
+      <div>
+        <Preloader load={load} />
+      </div>
       <div className="App" id={load ? "no-scroll" : "scroll"}>
-        <Navbar />
-        < Home />
-        < About />
-        < Projects /> 
+        <div>
+          <Navbar />
+        </div>
+        <div>< Home /></div>
+        <div>< About /></div>
+        <div>< Projects /> </div>
+        <div>< Contact /></div>
         <ScrollToTop />
-        < Contact />
       </div>
     </Router>
   );

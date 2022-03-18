@@ -4,9 +4,7 @@ import emailjs from '@emailjs/browser';
 import AddedCont from './AddedCont';
 const Result = ()=>{
   return (
-    <>
       <p>Your message has been successfully send. I will contact you soon.</p>
-    </>
   )
 }
 export const Contact = () => {
@@ -27,23 +25,23 @@ export const Contact = () => {
   };
   return (
     <>
-    <section className="contact" id="contact" style={{fontFamily: "'Lobster Two', cursive"}}>
+    <section className="contact" id="contact" style={{fontFamily: "'Lobster Two', cursive "}}>
       <div id='now'>
-        Now don't be shy contact me
+        Now don't be shy contact me 😄
       </div>
           <div className="form_div">
         <form onSubmit={sendEmail} className="form_form" >
           <div>
             <p>Name</p>
-            <input type="text" name="from_name" placeholder="Enter Name" required/>
+            <input type="text" name="from_name" placeholder="Enter Name" required="required" />
             <p>Email</p>
-            <input type="email" name="email" placeholder="Enter Your Email"  requred/>
+            <input type="email" name="email" placeholder="Enter Your Email"  required='required'/>
             <p>Number</p>
-            <input type="number" className='number' name="number"  placeholder="Enter Mobile Number" required/>
+            <input type="number" className='number' name="number"  placeholder="Enter Mobile Number" required='required'/>
           </div>
           <div>
             <p>Message</p>
-            <textarea name="message" rows="4" placeholder="Message" col='5' required/>
+            <textarea name="message" rows="4" placeholder="Message" col='5' required='required'/>
             <input type="submit" className='submit' value="Send"/>
           </div>
         </form>

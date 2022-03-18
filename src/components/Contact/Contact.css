@@ -21,10 +21,6 @@ input[type=number] {
 .number {
     width: 80%;
 }
-* {
-    font-family: cursive;
-    font-style:  italic;
-}
 .form_form div> input {
     padding: 1%;
 }

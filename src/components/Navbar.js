@@ -34,8 +34,8 @@ function NavBar() {
       expand="md"
       className={navColour ? "sticky" : "navbar"}
     >
-      <Container>
-        <Navbar.Brand href="#home">
+      <Container >
+        <Navbar.Brand>
           <strong style={{color : '#c770f0',fontFamily: "'Lobster Two', cursive", fontSize : '30px'}}>
             Bs
           </strong>
@@ -74,7 +74,7 @@ function NavBar() {
                 smooth to="#skill"
                 onClick={() => updateExpanded(false)}
               >
-                <GiSkills style={{ marginBottom: "2px" }} /> Skills
+                <GiSkills style={{ marginBottom: "2px" }} />{" "} Skills
               </Nav.Link>
             </Nav.Item>
 
@@ -93,23 +93,23 @@ function NavBar() {
 
             <Nav.Item>
               <Nav.Link
+              as={Link}
+              onClick={() => updateExpanded(false)}
+              smooth to="#contact"
+              >
+                <AiOutlineMail style={{ marginBottom: "2px" }} />{" "}
+                Contact
+              </Nav.Link>
+            </Nav.Item>
+            <Nav.Item>
+              <Nav.Link
                 onClick={() => {
                   updateExpanded(false)
                   window.open("https://drive.google.com/file/d/16on1-YyoLH0LuRPD8B16rhyOxSBAAnTA/view?usp=sharing", "_blank")
                 }}
               >
-                <CgFileDocument style={{ marginBottom: "2px" }} />
+                <CgFileDocument style={{ marginBottom: "2px" }} />{" "}
                 Resume
-              </Nav.Link>
-            </Nav.Item>
-            <Nav.Item>
-              <Nav.Link
-              as={Link}
-              onClick={() => updateExpanded(false)}
-              smooth to="#contact"
-              >
-                <AiOutlineMail style={{ marginBottom: "2px" }} />
-                Contact
               </Nav.Link>
             </Nav.Item>
           </Nav>
