@@ -27,8 +27,8 @@ export const Contact = () => {
   };
   return (
     <>
-    <section className="contact" id="contact" >
-      <div>
+    <section className="contact" id="contact" style={{fontFamily: "'Lobster Two', cursive"}}>
+      <div id='now'>
         Now don't be shy contact me
       </div>
           <div className="form_div">
@@ -39,12 +39,12 @@ export const Contact = () => {
             <p>Email</p>
             <input type="email" name="email" placeholder="Enter Your Email"  requred/>
             <p>Number</p>
-            <input type="number" name="number" pattern="/^-?\d+\.?\d*$/" placeholder="Enter Mobile Number" required/>
+            <input type="number" className='number' name="number"  placeholder="Enter Mobile Number" required/>
           </div>
           <div>
             <p>Message</p>
             <textarea name="message" rows="4" placeholder="Message" col='5' required/>
-            <input type="submit" value="Send"/>
+            <input type="submit" className='submit' value="Send"/>
           </div>
         </form>
             <div> {result ? <Result/> : null} </div>

@@ -36,7 +36,7 @@ function NavBar() {
     >
       <Container>
         <Navbar.Brand href="#home">
-          <strong style={{color : '#c770f0'}}>
+          <strong style={{color : '#c770f0',fontFamily: "'Lobster Two', cursive", fontSize : '30px'}}>
             Bs
           </strong>
         </Navbar.Brand>

@@ -2,7 +2,7 @@ body {
     font-size: 66.5%;
 }
 :root {
-    --fontSizeAd : 2rem;
+    --fontSizeAd : 1.5rem;
 }
 .add_contact {
     padding: 1rem 0 1rem 0;
@@ -17,7 +17,7 @@ body {
 }
 .add_contact_div{
     display: flex;
-    width: 60%;
+    width: 50%;
     margin: auto;
     justify-content: space-between;
 }
@@ -26,6 +26,6 @@ body {
         width: 80%;
     }
     :root {
-        --fontSizeAd : 1rem;
+        --fontSizeAd : 0.8rem;
     }
 }
