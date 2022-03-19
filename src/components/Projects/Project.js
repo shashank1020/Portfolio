@@ -83,9 +83,10 @@ export const Projects = () => {
               <h2>Ubuy Clone</h2>
               <div>
               <p>
-              Gift-card is a e-commerce website, It is an online 
-              gift-card retailer based in Pittsburgh, Pennsylvania. It is considered the
-              largest online gift card retailer and has appeared on the Inc.
+              Ubuy is not your usual e-commerce website, we provide our 
+              customers with access to an excellent variety of products. 
+              Today's shoppers want more in a shorter time period, and let's 
+              not forget the easy purchase methods and delivery to make it worth their while.
               </p>
               <p>
                 This was a group project and contributors are Suresh, Prachi and Ankit
