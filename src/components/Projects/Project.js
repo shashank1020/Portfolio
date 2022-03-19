@@ -1,13 +1,12 @@
 import React from "react";
 import "./Project.css";
-import {
-  SiHtml5,
-} from "react-icons/si";
+import { SiHtml5 } from "react-icons/si";
 import { DiCss3,DiRequirejs,DiMongodb } from "react-icons/di";
 import { IoLogoJavascript } from "react-icons/io";
 import { SiExpress } from "react-icons/si";
-import Youtube from '../../Assets/Youtube.png'
-import Ubuy from '../../Assets/Ubuy.png'
+import ubuy from '../../Assets/ubuy.gif'
+import giftcard from '../../Assets/giftcard.gif'
+import youtube from '../../Assets/youtube.gif'
 export const Projects = () => {
   return (
     <>
@@ -20,7 +19,7 @@ export const Projects = () => {
             <div className="project_videocontainer">
               <div data-aos="fade-right">
                 <img
-                  src="https://drive.google.com/uc?export=view&id=1MZTHotmlqZyoGjQQbS9FOOnRKdA-ou7z"
+                  src={giftcard}                  
                   alt=""
                 />
               </div>
@@ -74,7 +73,7 @@ export const Projects = () => {
             <div className="project_videocontainer">
               <div data-aos="fade-right" >
                 <img
-                  src={Ubuy}
+                  src={ubuy}
                   alt=""
                 />
               </div>
@@ -126,7 +125,7 @@ export const Projects = () => {
             <div className="project_videocontainer">
               <div data-aos="fade-right"   data-aos-anchor-easing='ease-in-out'>
                 <img
-                  src={Youtube}
+                  src={youtube}
                   alt=""
                 />
               </div>
