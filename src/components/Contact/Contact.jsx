@@ -2,6 +2,8 @@ import React,{ useState } from 'react'
 import './Contact.css'
 import emailjs from '@emailjs/browser';
 import AddedCont from './AddedCont';
+
+import { RiSendPlaneLine } from "react-icons/ri";
 const Result = ()=>{
   return (
       <p>Your message has been successfully send. I will contact you soon.</p>
@@ -42,7 +44,9 @@ export const Contact = () => {
           <div>
             <p>Message</p>
             <textarea name="message" rows="4" placeholder="Message" col='5' required='required'/>
-            <input type="submit" className='submit' value="Send"/>
+            <button type="submit" className='submit'>
+              Send <RiSendPlaneLine />
+            </button>
           </div>
         </form>
             <div> {result ? <Result/> : null} </div>
