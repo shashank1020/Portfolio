@@ -145,7 +145,7 @@ export const Projects = () => {
               </div>
               <div>
                 <a
-                  href="https://giftcart-backend.herokuapp.com/index"
+                  href="https://tube-ten.vercel.app/"
                   target="_blank"
                   rel="noreferrer"
                 >
@@ -154,7 +154,7 @@ export const Projects = () => {
                   </span>
                 </a>
                 <a
-                  href="https://github.com/BhaveshSuthar00/GiftCart-clone"
+                  href="https://github.com/BhaveshSuthar00/tube"
                   target="_blank"
                   rel="noreferrer"
                 >
