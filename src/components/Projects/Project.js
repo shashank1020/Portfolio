@@ -46,7 +46,7 @@ export const Projects = () => {
               </div>
               <div>
                 <a
-                  href="https://giftcart-backend.herokuapp.com/index"
+                  href="https://enigmatic-beach-48011.herokuapp.com/"
                   target="_blank"
                   rel="noreferrer"
                 >
@@ -98,7 +98,7 @@ export const Projects = () => {
               </div>
               <div>
                 <a
-                  href="https://giftcart-backend.herokuapp.com/index"
+                  href="https://ubuy-project.vercel.app/"
                   target="_blank"
                   rel="noreferrer"
                 >
