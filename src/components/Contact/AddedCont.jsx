@@ -10,10 +10,10 @@ const AddedCont = () => {
     <div className='add_contact' style={{fontFamily: "'Lobster Two', cursive "}}> 
         <div className='add_contact_div'>
         <div>
-            <BiPhone /><span>{"  "}8369480040</span>
+            <BiPhone /><span style={{letterSpacing: "3px"}}>{"  "}8369480040</span>
         </div>
         <div>
-            <AiOutlineMail /><span>{"  "}Bhaveshs0770@gmail.com</span>
+            <AiOutlineMail /><span style={{letterSpacing: "3px"}}>{"   "}bhaveshs0770@gmail.com</span>
         </div>
         </div>
     </div>
