@@ -9,9 +9,8 @@ import {
   SiRedis
 } from "react-icons/si";
 import { DiCss3, DiMongodb } from "react-icons/di";
-import { SiJavascript } from "react-icons/si";
+import { SiJavascript, SiChakraui } from "react-icons/si";
 import { VscGithub } from "react-icons/vsc";
-import { BsBootstrap } from "react-icons/bs";
 
 function Techstack() {
   return (
@@ -54,12 +53,12 @@ function Techstack() {
             <h5>Redis</h5>
           </div>
           <div data-aos='flip-down'>
-            <SiMaterialui />
-            <h5>Material Ui</h5>
+            <SiChakraui />
+            <h5>Chakra Ui</h5>
           </div>
           <div data-aos='flip-down'>
-            <BsBootstrap />
-            <h5>Bootstrap</h5>
+            <SiMaterialui />
+            <h5>Material Ui</h5>
           </div>
           <div data-aos='flip-down'>
             <VscGithub />
