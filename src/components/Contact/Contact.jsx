@@ -27,9 +27,9 @@ export const Contact = () => {
   };
   return (
     <>
-    <section className="contact" id="contact" style={{fontFamily: "'Lobster Two', cursive "}}>
+    <section className="contact" id="contact" style={{zIndex : 100,position : 'relative'}}>
       <div id='now'>
-        Now don't be shy contact me 😄
+        Contact me with E-mail 😄
       </div>
           <div className="form_div">
         <form onSubmit={sendEmail} className="form_form" >

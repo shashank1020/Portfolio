@@ -11,6 +11,7 @@ import "./style.css";
 import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import AOS from 'aos'
+import { ParticlesOut } from "./components/Config/Particles.config";
 function App() {
   const [load, upadateLoad] = useState(true);
 
@@ -36,6 +37,7 @@ function App() {
   }, []);
   return (
     <Router>
+      <ParticlesOut />
       <div>
         <Preloader load={load} />
       </div>

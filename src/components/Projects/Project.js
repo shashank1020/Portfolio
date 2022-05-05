@@ -12,7 +12,7 @@ export const Projects = () => {
     <>
       <div className="section" id="project">
         <h2 className="section__title different" data-aos="fade-right">
-          {'<'}<strong>Projects</strong>{'/>'}
+          {'< '}<strong>Projects</strong>{' />'}
         </h2>
         <div className="projects_container">
           <div className="project">
@@ -107,7 +107,7 @@ export const Projects = () => {
                   </span>
                 </a>
                 <a
-                  href="https://github.com/BhaveshSuthar00/GiftCart-clone"
+                  href="https://github.com/BhaveshSuthar00/ubuy-project"
                   target="_blank"
                   rel="noreferrer"
                 >

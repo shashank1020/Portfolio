@@ -40,7 +40,6 @@ input[type=number] {
 }
 .form_form { 
     display: flex;
-    /* padding-bottom: 1%; */
 }
 .form_form>div {
     width: 48%;
@@ -62,7 +61,6 @@ input , textarea {
     
 }
 .form_form input{
-    /* height: 2rem; */
     width: var(--widthfor);
     font-size : var(--fontSize);
     margin-bottom : 10%;    
