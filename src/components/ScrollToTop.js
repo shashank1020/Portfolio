@@ -1,12 +1,11 @@
-import { useEffect } from "react";
-import { useLocation } from "react-router-dom";
-
+import { HashLink as Link } from 'react-router-hash-link';
+import { AiOutlineArrowUp } from 'react-icons/ai'
 function ScrollToTop() {
-  const { pathname } = useLocation();
-  useEffect(() => {
-    window.scrollTo(0, 0);
-  }, [pathname]);
-  return null;
+  return (
+    <Link style={{borderRadius : "50%", backgroundColor : "black", width : "100%", height : "100%", padding : '10px 13px', fontSize : '28px', color : '#cd5ff8' }}   smooth to="#home">
+      <AiOutlineArrowUp />
+    </Link>
+  )
 }
 
 export default ScrollToTop;

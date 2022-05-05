@@ -49,7 +49,9 @@ function App() {
         <div>< About /></div>
         <div>< Projects /> </div>
         <div>< Contact /></div>
-        <ScrollToTop />
+        <div style={{position: 'fixed', zIndex: 1000, bottom : "20px", right : '20px',  width : "50px", height : "50px"}}>
+          <ScrollToTop />
+        </div>
       </div>
     </Router>
   );
