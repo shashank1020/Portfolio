@@ -34,16 +34,16 @@ export const Contact = () => {
           <div className="form_div">
         <form onSubmit={sendEmail} className="form_form" >
           <div>
-            <p>Name</p>
-            <input type="text" name="from_name" placeholder="Enter Name" required="required" />
-            <p>Email</p>
-            <input type="email" name="email" placeholder="Enter Your Email"  required='required'/>
-            <p>Number</p>
-            <input type="number" className='number' name="number"  placeholder="Enter Mobile Number" required='required'/>
+            <label className='label' htmlFor="name">Name</label>
+            <input type="text" id='name' name="from_name" placeholder="Enter Name" required="required" />
+            <label className='label' htmlFor="email">Email</label>
+            <input type="email" id='email' name="email" placeholder="Enter Your Email"  required='required'/>
+            <label htmlFor="number" className='label'>Number</label>
+            <input type="number"  className='number' id='number' name="number"  placeholder="Enter Mobile Number" required='required'/>
           </div>
           <div>
-            <p>Message</p>
-            <textarea name="message" rows="4" placeholder="Message" col='5' required='required'/>
+            <label htmlFor="message" className='label'>Message</label>
+            <textarea name="message" id='message' rows="4" placeholder="Message" col='5' required='required'/>
             <button type="submit" className='submit'>
               Send <RiSendPlaneLine />
             </button>

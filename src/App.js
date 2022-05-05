@@ -26,7 +26,7 @@ function App() {
   useEffect(() => {
     AOS.init({
       duration : 1000,
-      offset: 250,
+      offset: 210,
       // once: 'false',
       mirror: true,
       disable: function() {

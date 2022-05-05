@@ -41,7 +41,7 @@ function Home2() {
               Whenever possible, I also apply my passion for Learning new technologies
               <i>
                 <b className="purple">
-                  {" "}
+                  &nbsp;
                   Modern Javascript Library and Frameworks
                 </b>
               </i>
@@ -51,7 +51,7 @@ function Home2() {
               </i>
             </p>
           </Col>
-          <Col md={4} className="myAvtar" data-aos='fade-left'>
+          <Col md={3} className="myAvtar" data-aos='fade-left'>
             <Tilt>
               <img src={Bhavesh} className="img-fluid" alt="avatar" />
             </Tilt>

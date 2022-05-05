@@ -50,18 +50,18 @@ export const Projects = () => {
                   target="_blank"
                   rel="noreferrer"
                 >
-                  <span type="button" className="btn btn--outline onbt">
+                  <button className="btn btn--outline onbt">
                     See this Live
-                  </span>
+                  </button>
                 </a>
                 <a
                   href="https://github.com/BhaveshSuthar00/GiftCart-clone"
                   target="_blank"
                   rel="noreferrer"
                 >
-                  <span type="button" className="btn btn--outline">
+                  <button className="btn btn--outline">
                     View Code
-                  </span>
+                  </button>
                 </a>
               </div>
             </div>
@@ -102,18 +102,18 @@ export const Projects = () => {
                   target="_blank"
                   rel="noreferrer"
                 >
-                  <span type="button" className="btn btn--outline onbt">
+                  <button className="btn btn--outline onbt">
                     See this Live
-                  </span>
+                  </button>
                 </a>
                 <a
                   href="https://github.com/BhaveshSuthar00/ubuy-project"
                   target="_blank"
                   rel="noreferrer"
                 >
-                  <span type="button" className="btn btn--outline">
+                  <button className="btn btn--outline">
                     View Code
-                  </span>
+                  </button>
                 </a>
               </div>
             </div>
@@ -148,18 +148,18 @@ export const Projects = () => {
                   target="_blank"
                   rel="noreferrer"
                 >
-                  <span type="button" className="btn btn--outline onbt">
+                  <button className="btn btn--outline onbt">
                     See this Live
-                  </span>
+                  </button>
                 </a>
                 <a
                   href="https://github.com/BhaveshSuthar00/tube"
                   target="_blank"
                   rel="noreferrer"
                 >
-                  <span type="button" className="btn btn--outline">
+                  <button  className="btn btn--outline">
                     View Code
-                  </span>
+                  </button>
                 </a>
               </div>
             </div>

@@ -25,7 +25,6 @@ input[type=number] {
     padding: 1%;
 }
 .contact {
-    cursor: pointer;
     color : white;
     font-size: 3rem;
     text-align: center;
@@ -58,7 +57,10 @@ input[type=number] {
 input , textarea {
     border: none;
     border :1px solid rgb(176, 107, 255);
-    
+}
+.label {
+    font-size: 19px;
+    margin-top: 4%;
 }
 .form_form input{
     width: var(--widthfor);
