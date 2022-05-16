@@ -1,12 +1,13 @@
 import React from "react";
 import "./Project.css";
 import { SiHtml5 } from "react-icons/si";
-import { DiCss3,DiRequirejs,DiMongodb } from "react-icons/di";
+import { DiCss3,DiRequirejs,DiMongodb, DiReact } from "react-icons/di";
 import { IoLogoJavascript } from "react-icons/io";
-import { SiExpress } from "react-icons/si";
+import { SiExpress, SiChakraui } from "react-icons/si";
 import ubuy from '../../Assets/ubuy.gif'
 import giftcard from '../../Assets/giftcard.gif'
 import youtube from '../../Assets/youtube.gif'
+import soundCloud from '../../Assets/soundCloud.gif'
 export const Projects = () => {
   return (
     <>
@@ -14,13 +15,65 @@ export const Projects = () => {
         <h2 className="section__title different" data-aos="fade-right">
           {'< '}<strong>Projects</strong>{' />'}
         </h2>
+        {/* first one */}
+        <div className="projects_container">
+          <div className="project">
+            <div className="project_videocontainer">
+              <div data-aos="fade-right"   data-aos-anchor-easing='ease-in-out'>
+                <img
+                  src={soundCloud}
+                  alt="gif"
+                />
+              </div>
+            </div>
+            <div className="project_information" data-aos="fade-left"   data-aos-anchor-easing='ease-in-out'>
+              <h2>soundCloud Clone</h2>
+              <div>
+                <p>
+                  This is a online audio streaming and distribution platform that allows users to stream, and share music and podcasts.
+                </p>
+                <p>
+                This was a group project and contributors are Jevan, chandan, saurabh
+              </p>
+              </div>
+              <div>
+                <SiChakraui />
+                <DiReact />
+                <DiCss3 />
+                <DiMongodb />
+                <SiExpress />
+              </div>
+              <div>
+                <a
+                  href="https://web-jinke-music.vercel.app/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <button className="btn btn--outline onbt">
+                    See this Live
+                  </button>
+                </a>
+                <a
+                  href="https://github.com/BhaveshSuthar00/soundCld-client-side"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <button  className="btn btn--outline">
+                    View Code
+                  </button>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        {/* second one */}
         <div className="projects_container">
           <div className="project">
             <div className="project_videocontainer">
               <div data-aos="fade-right">
                 <img
                   src={giftcard}                  
-                  alt=""
+                  alt="gitcard gif"
                 />
               </div>
             </div>
@@ -67,14 +120,14 @@ export const Projects = () => {
             </div>
           </div>
         </div>
-          {/* second one */}
+          {/* third one */}
           <div className="projects_container">
           <div className="project">
             <div className="project_videocontainer">
               <div data-aos="fade-right" >
                 <img
                   src={ubuy}
-                  alt=""
+                  alt="ubuy gif"
                 />
               </div>
             </div>
@@ -119,14 +172,14 @@ export const Projects = () => {
             </div>
           </div>
         </div>
-          {/* third one */}
+          {/* forth one */}
           <div className="projects_container">
           <div className="project">
             <div className="project_videocontainer">
               <div data-aos="fade-right"   data-aos-anchor-easing='ease-in-out'>
                 <img
                   src={youtube}
-                  alt=""
+                  alt="youtube gif"
                 />
               </div>
             </div>
@@ -165,7 +218,7 @@ export const Projects = () => {
             </div>
           </div>
         </div>
-
+        
       </div>
     </>
   );
