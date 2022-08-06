@@ -1,0 +1,179 @@
+.projects_container {
+    width: 80%;
+    color: white;
+    margin: auto;
+}
+
+#root {
+    font-family: 'Poppins', sans-serif;
+}
+
+#project {
+    width: 100%;
+    display: inline-block;
+    justify-content: center;
+}
+
+.different {
+    color: white;
+    display: inline-block;
+    font-family: 'Lobster Two', cursive;
+    margin: auto;
+    margin: 2%;
+    padding: 1%;
+    transition: all 0.6s ease !important;
+}
+
+.different::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    width: 0%;
+    left: 0;
+    right: 0;
+    top: 1;
+    height: 5px;
+    border-radius: 20px;
+    background: rgb(144, 89, 246);
+    transition: all 0.6s ease;
+}
+
+.different:hover::after {
+    width: 100%;
+}
+
+.project {
+    width: 100%;
+    background-color: transparent;
+    margin: auto;
+    font-size: 14px;
+    margin: 6% 0% 6% 0%;
+    display: flex;
+    border-radius: 30px;
+    transition: all 0.5s ease;
+}
+
+.project:hover {
+    transform: scale(1.01);
+    overflow: hidden;
+    box-shadow: rgba(165, 41, 248, 0.36) 0px 10px 36px 0px,
+    rgba(119, 31, 235, 0.06) 0px 0px 0px 1px;
+}
+
+.project_videocontainer {
+    flex-basis: 65%;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.project_videocontainer > div {
+    width: 90%;
+    height: 90%;
+    border: 2px solid rgb(161, 112, 251);
+    border-radius: 30px;
+}
+
+.project_videocontainer > div > img {
+    width: 100%;
+    height: 100%;
+    border-radius: 28px;
+}
+
+.project_information > div:nth-child(2) > p:first-child {
+    height: 120px;
+    overflow: scroll;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+.project_information {
+    flex-basis: 35%;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0% 3% 4% 3%;
+    margin: auto;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+.project_information > h2 {
+    margin-top: 1em;
+    color: white;
+}
+
+.project_information > div:first-child {
+    margin-top: 1em;
+    text-align: center;
+}
+
+.project_information > div:nth-child(3) {
+    margin-top: 0.5em;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.project_information > div:nth-child(3) > svg {
+    font-size: 2.5em;
+    margin: 2% 3% 2% 3%;
+    color: white;
+    transition: all 0.2s ease-in-out;
+}
+
+.project_information > div:nth-child(4) {
+    margin-top: 0.6em;
+    display: flex;
+}
+
+.onbt {
+    margin: 0 1vw 0 1vw;
+}
+
+.project_information > h3 {
+    margin-top: 1.6em;
+    color: white;
+}
+
+.project_information::-webkit-scrollbar {
+    display: none;
+}
+
+.project_information button {
+    color: white;
+    background-color: black;
+    transition: all 0.3s ease-in-out;
+}
+
+.project_information button:hover {
+    box-shadow: rgba(137, 11, 240, 0.25) 0px 13px 27px -5px, rgba(236, 93, 255, 0.3) 0px 8px 16px -8px;
+    background-color: rgb(35, 35, 35, 0.5) !important;
+    color: white !important;
+}
+
+@media (max-width: 600px) {
+    .project {
+        flex-direction: column;
+    }
+
+    .projects_container {
+        margin-top: 10%;
+    }
+
+    .project_videocontainer {
+        flex-basis: 40%;
+    }
+
+    .project_information {
+        flex-basis: 60%;
+    }
+
+    .project_information > div:nth-child(3) > svg {
+        font-size: 2em;
+    }
+}
+  
