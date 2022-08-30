@@ -1,7 +1,7 @@
 import React from "react";
 import '../../Assets/css/Techstack.css'
-import {FaNodeJs, FaReact} from "react-icons/fa";
-import {SiChakraui, SiExpress, SiHtml5, SiJavascript, SiMaterialui, SiRedis, SiRedux} from "react-icons/si";
+import {FaNodeJs, FaReact, FaAngular} from "react-icons/fa";
+import {SiChakraui, SiExpress, SiHtml5, SiJavascript, SiMaterialui, SiNestjs, SiRedux} from "react-icons/si";
 import {DiCss3, DiMongodb} from "react-icons/di";
 import {VscGithub} from "react-icons/vsc";
 
@@ -26,28 +26,24 @@ function Techstack() {
                     <h5 style={{marginTop: 10}}>React</h5>
                 </div>
                 <div data-aos='flip-down'>
-                    <FaNodeJs/>
-                    <h5 style={{marginTop: 10}}>Nodejs</h5>
+                    <FaReact/>
+                    <h5 style={{marginTop: 10}}>ReactNative</h5>
                 </div>
                 <div data-aos='flip-down'>
-                    <DiMongodb/>
-                    <h5 style={{marginTop: 10}}>MongoDb</h5>
+                    <FaAngular/>
+                    <h5 style={{marginTop: 10}}>Angular 2+</h5>
+                </div>
+                <div data-aos='flip-down'>
+                    <FaNodeJs/>
+                    <h5 style={{marginTop: 10}}>Nodejs</h5>
                 </div>
                 <div data-aos='flip-down'>
                     <SiRedux/>
                     <h5 style={{marginTop: 10}}>Redux</h5>
                 </div>
                 <div data-aos='flip-down'>
-                    <SiExpress/>
-                    <h5 style={{marginTop: 10}}>Express</h5>
-                </div>
-                <div data-aos='flip-down'>
-                    <SiRedis/>
-                    <h5 style={{marginTop: 10}}>Redis</h5>
-                </div>
-                <div data-aos='flip-down'>
-                    <SiChakraui/>
-                    <h5 style={{marginTop: 10}}> Chakra Ui</h5>
+                    <SiNestjs/>
+                    <h5 style={{marginTop: 10}}>Nestjs</h5>
                 </div>
                 <div data-aos='flip-down'>
                     <SiMaterialui/>

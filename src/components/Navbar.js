@@ -5,8 +5,8 @@ import Container from "react-bootstrap/Container";
 import {HashLink as Link} from 'react-router-hash-link';
 import {AiOutlineFundProjectionScreen, AiOutlineHome, AiOutlineMail, AiOutlineUser,} from "react-icons/ai";
 import {CgFileDocument} from "react-icons/cg";
-
 import {GiSkills} from "react-icons/gi";
+import {USER} from "../Constants";
 
 function NavBar() {
     const [expand, updateExpanded] = useState(false);
@@ -32,7 +32,7 @@ function NavBar() {
             <Container>
                 <Navbar.Brand>
                     <strong style={{color: '#c770f0', fontFamily: "'Lobster Two', cursive", fontSize: '30px'}}>
-                        Bs
+                        Portfolio
                     </strong>
                 </Navbar.Brand>
                 <Navbar.Toggle
@@ -100,7 +100,7 @@ function NavBar() {
                             <Nav.Link
                                 onClick={() => {
                                     updateExpanded(false)
-                                    window.open("https://drive.google.com/file/d/13DAb-75c_feWolJb9UJpP7AVoIS6L47I/view?usp=sharing", "_blank")
+                                    window.open(USER.resumeLink, "_blank")
                                 }}
                             >
                                 <CgFileDocument style={{marginBottom: "2px"}}/>{" "}

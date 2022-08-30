@@ -3,6 +3,7 @@ import {Col, Container, Row} from "react-bootstrap";
 import coding from "../../Assets/images/coding.png";
 import Home2 from "./Home2";
 import Type from "./Type";
+import {USER} from "../../Constants";
 
 function Home() {
     return (
@@ -17,7 +18,7 @@ function Home() {
 
                             <h1 className="heading-name">
                                 I'M
-                                <strong className="main-name"> Shashank Maurya</strong>
+                                <strong className="main-name"> {USER.fullName}</strong>
                             </h1>
 
                             <div style={{padding: 50, textAlign: "left"}}>

@@ -42,13 +42,11 @@ function App() {
                 <Preloader load={load}/>
             </div>
             <div className="App" id={load ? "no-scroll" : "scroll"}>
-                <div>
-                    <Navbar/>
-                </div>
-                <div>< Home/></div>
-                <div>< About/></div>
-                <div>< Projects/></div>
-                <div>< Contact/></div>
+                <Navbar/>
+                <Home/>
+                <About/>
+                <Projects/>
+                <Contact/>
                 <div style={{
                     position: 'fixed',
                     zIndex: 1000,
