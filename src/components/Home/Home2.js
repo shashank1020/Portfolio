@@ -2,7 +2,6 @@ import React from "react";
 import {Col, Container, Row} from "react-bootstrap";
 import {HashLink as Link} from 'react-router-hash-link';
 import Tilt from "react-parallax-tilt";
-import Shashank from '../../Assets/images/shashank.jpg';
 import {AiFillGithub, AiOutlineMail,} from "react-icons/ai";
 import {FaLinkedinIn, FaWhatsapp} from "react-icons/fa";
 import {USER} from "../../Constants";
@@ -50,7 +49,7 @@ function Home2() {
                     </Col>
                     <Col md={3} className="myAvtar" data-aos='fade-left'>
                         <Tilt>
-                            <img src={Shashank} className="img-fluid" alt="avatar" style={{borderRadius: '30%'}}/>
+                            <img src={USER.profileImg} className="img-fluid" alt="avatar" style={{borderRadius: '30%'}}/>
                         </Tilt>
                     </Col>
                 </Row>

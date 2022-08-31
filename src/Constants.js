@@ -5,8 +5,10 @@ import {IoLogoJavascript} from "react-icons/io";
 import bikeRental from './Assets/images/bike-rental.gif'
 import quizApp from './Assets/images/quiz-app.gif'
 import NFT from './Assets/images/nft.gif'
+import Shashank from './Assets/images/shashank.jpg';
 
 export const USER = {
+    profileImg: Shashank,
     fullName: 'Shashank Maurya',
     resumeLink: 'https://drive.google.com/file/d/1lWliF3wrNeIxVdpZftWSw5zSz0W7CR1F/view?usp=sharing',
     github: 'https://github.com/shashank1020',
