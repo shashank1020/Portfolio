@@ -4,8 +4,8 @@ import {HashLink as Link} from 'react-router-hash-link';
 import Tilt from "react-parallax-tilt";
 import Shashank from '../../Assets/images/shashank.jpg';
 import {AiFillGithub, AiOutlineMail,} from "react-icons/ai";
-import {FaLinkedinIn} from "react-icons/fa";
-import {GiWorld} from "react-icons/gi";
+import {FaLinkedinIn, FaWhatsapp} from "react-icons/fa";
+import {USER} from "../../Constants";
 
 function Home2() {
     return (
@@ -63,7 +63,7 @@ function Home2() {
                         <ul className="home-about-social-links" data-aos='zoom-in-out'>
                             <li className="social-icons">
                                 <a
-                                    href="https://github.com/shashank1020"
+                                    href={USER.github}
                                     target="_blank"
                                     rel="noreferrer"
                                     className="icon-colour  home-social-icons"
@@ -73,22 +73,22 @@ function Home2() {
                             </li>
                             <li className="social-icons">
                                 <a
-                                    href="https://www.google.com/maps/place/Dahisar+East,+Mumbai,+Maharashtra/@19.2545196,72.8439397,14z/data=!4m9!1m2!10m1!1e2!3m5!1s0x3be7b0eef33fcc13:0xdf8f3b35a262c586!8m2!3d19.2574665!4d72.8650191!16s%2Fg%2F12hw1vgkw"
-                                    target="_blank"
-                                    rel="noreferrer"
-                                    className="icon-colour  home-social-icons"
-                                >
-                                    <GiWorld/>
-                                </a>
-                            </li>
-                            <li className="social-icons">
-                                <a
-                                    href="https://www.linkedin.com/in/bhaveshsuthar0770"
+                                    href={USER.linkedin}
                                     target="_blank"
                                     rel="noreferrer"
                                     className="icon-colour  home-social-icons"
                                 >
                                     <FaLinkedinIn/>
+                                </a>
+                            </li>
+                            <li className="social-icons">
+                                <a
+                                    href={USER.phoneNo}
+                                    target="_blank"
+                                    rel="noreferrer"
+                                    className="icon-colour  home-social-icons"
+                                >
+                                    <FaWhatsapp/>
                                 </a>
                             </li>
                             <li className="social-icons">

@@ -1,6 +1,7 @@
 import React from "react";
 import GitHubCalendar from "react-github-calendar";
 import {Row} from "react-bootstrap";
+import {USER} from "../../Constants";
 
 function Github() {
     const colourTheme = {
@@ -18,7 +19,7 @@ function Github() {
                 Days I <strong className="purple">Code</strong>
             </h1>
             <GitHubCalendar
-                username="shashank1020"
+                username={USER.github.split('/').pop()}
                 blockSize={15}
                 blockMargin={5}
                 theme={colourTheme}

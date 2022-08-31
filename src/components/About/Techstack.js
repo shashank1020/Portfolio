@@ -1,8 +1,8 @@
 import React from "react";
 import '../../Assets/css/Techstack.css'
 import {FaNodeJs, FaReact, FaAngular} from "react-icons/fa";
-import {SiChakraui, SiExpress, SiHtml5, SiJavascript, SiMaterialui, SiNestjs, SiRedux} from "react-icons/si";
-import {DiCss3, DiMongodb} from "react-icons/di";
+import {SiHtml5, SiJavascript, SiMaterialui, SiNestjs, SiRedux} from "react-icons/si";
+import {DiCss3} from "react-icons/di";
 import {VscGithub} from "react-icons/vsc";
 
 function Techstack() {

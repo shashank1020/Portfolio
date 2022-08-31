@@ -66,15 +66,12 @@ const ProjectShowcase = (props) => {
                         <p>
                             {props?.description}
                         </p>
-                        <p>
-                            {props?.sub}
-                        </p>
                     </div>
                     <div>
                         {props?.technologies?.map((Tech)=> <Tech />)}
                     </div>
                     <div>
-                        <a
+                        {props?.hostedLink && <a
                             href={props?.hostedLink}
                             target="_blank"
                             rel="noreferrer"
@@ -82,7 +79,7 @@ const ProjectShowcase = (props) => {
                             <button className="btn btn--outline onbt">
                                 See this Live
                             </button>
-                        </a>
+                        </a>}
                         <a
                             href={props?.github}
                             target="_blank"
